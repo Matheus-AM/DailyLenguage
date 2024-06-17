@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    /* Set minimum height for full viewport */
+}
+
+.topbar,
+.sidebar,
+.content {
+    padding: 20px;
+}
+
+.topbar {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    /* Space out elements horizontally */
+    align-items: center;
+    /* Align elements vertically */
+}
+
+.sidebar {
+    background-color: #e0e0e0;
+    width: 220px;
+    /* Set sidebar width */
+}
+
+.content {
+    flex: 1;
+    /* Make content area flexible to fill remaining space */
+}
+/* CONTENT AREA */
+#root {
+    width: 100%;
+    height: auto;
+}
+
+#label-container {
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+#column-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    background-color: #a9ec3d1f;
+    margin: 0px 10px;
+}
+
+#row-container > * {
+    margin-left: 10px;
+}
+
+#column-container > * {
+    margin-bottom: 10px;
+}
+#row-container {
+    display: flex; /* Enable flexbox */
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Optional: Vertically center items (optional) */
+    background-color: #3db4ec1f;
+
+}
+  
+#row-container>.item {
+    /* Add styling for your content divs here (optional) */
+    padding: 10px; /* Example padding */
+  }
+  
+
+aside>ul  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+aside>ul>li {
+    margin-top: 20px;
+}
+
+nav {
+    width: 500px;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#grid-container {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr)); /* Example: Responsive columns */
+    gap: 10px; /* Add spacing between grid items (optional) */
+    margin: 10px;
+}
+  
+#grid-container > * {
+    justify-self: center;
+    /* Add styling for individual grid items here (optional) */
+  }
