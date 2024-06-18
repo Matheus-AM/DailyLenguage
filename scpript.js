@@ -1,6 +1,6 @@
 function cRoot(){
     cRow();
-    const text1 = cText("_");
+    const text1 = cText(localStorage.getItem("prevsymbol"));
     end();
     cRow();
         cText("KANJI", {class: "title"});

@@ -4,6 +4,7 @@ class State {
         this.handler = handler;
     }
     refresh(value) {
+        localStorage.setItem("prevsymbol", value);
         this.handler(value);
     }
     get() {
