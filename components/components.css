@@ -28,6 +28,7 @@ body {
 .sidebar {
     background-color: #e0e0e0;
     width: 220px;
+    height: auto;
     /* Set sidebar width */
 }
 
@@ -80,7 +81,6 @@ aside>ul  {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 100%;
 }
 
 aside>ul>li {
@@ -108,3 +108,7 @@ nav>ul {
     justify-self: center;
     /* Add styling for individual grid items here (optional) */
   }
+
+.break-grid-column {
+    grid-column-end: 1;
+}

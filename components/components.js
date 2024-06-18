@@ -93,6 +93,10 @@ function end(){
     depth.rmv();
 }
 
+function resetScreen(){
+    depth.add(rootHTML);
+    rootHTML.innerHTML = null;
+}
 
 window.addEventListener("load", () => {
     cRoot();
