@@ -12,4 +12,3 @@ def read_file(file_path):
   except Exception as e:
     print(f"Error reading file: {e}")
     return None
-

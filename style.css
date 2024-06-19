@@ -1,4 +1,15 @@
-.title {
+#title {
     font-weight: bold;
     font-size: large;
+}
+
+#symbol {
+    font-weight: bold;
+    position: fixed;
+    margin-left: 60%;
+    margin-top: 35%;
+}
+
+#big-label {
+    font-size: 48px;
 }

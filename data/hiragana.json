@@ -386,301 +386,306 @@
     },
     {
         "id": 78,
-        "symbol": "っか",
-        "sound": "kka"
-    },
-    {
-        "id": 79,
-        "symbol": "っき",
-        "sound": "kki"
-    },
-    {
-        "id": 80,
-        "symbol": "っく",
-        "sound": "kku"
-    },
-    {
-        "id": 81,
-        "symbol": "っけ",
-        "sound": "kke"
-    },
-    {
-        "id": 82,
-        "symbol": "っこ",
-        "sound": "kko"
-    },
-    {
-        "id": 83,
         "symbol": "しゃ",
         "sound": "sha"
     },
     {
-        "id": 84,
+        "id": 79,
         "symbol": "しゅ",
         "sound": "shu"
     },
     {
-        "id": 85,
+        "id": 80,
         "symbol": "しょ",
         "sound": "sho"
     },
     {
-        "id": 86,
-        "symbol": "っさ",
-        "sound": "ssa"
-    },
-    {
-        "id": 87,
-        "symbol": "っし",
-        "sound": "sshi"
-    },
-    {
-        "id": 88,
-        "symbol": "っす",
-        "sound": "ssu"
-    },
-    {
-        "id": 89,
-        "symbol": "っせ",
-        "sound": "sse"
-    },
-    {
-        "id": 90,
-        "symbol": "っそ",
-        "sound": "sso"
-    },
-    {
-        "id": 91,
+        "id": 81,
         "symbol": "ちゃ",
         "sound": "cha"
     },
     {
-        "id": 92,
+        "id": 82,
         "symbol": "ちゅ",
         "sound": "chu"
     },
     {
-        "id": 93,
+        "id": 83,
         "symbol": "ちょ",
         "sound": "cho"
     },
     {
-        "id": 94,
-        "symbol": "った",
-        "sound": "tta"
-    },
-    {
-        "id": 95,
-        "symbol": "っち",
-        "sound": "tchi (cchi)"
-    },
-    {
-        "id": 96,
-        "symbol": "っつ",
-        "sound": "ttsu"
-    },
-    {
-        "id": 97,
-        "symbol": "って",
-        "sound": "tte"
-    },
-    {
-        "id": 98,
-        "symbol": "っと",
-        "sound": "tto"
-    },
-    {
-        "id": 99,
+        "id": 84,
         "symbol": "にゃ",
         "sound": "nya"
     },
     {
-        "id": 100,
+        "id": 85,
         "symbol": "にゅ",
         "sound": "nyu"
     },
     {
-        "id": 101,
+        "id": 86,
         "symbol": "にょ",
         "sound": "nyo"
     },
     {
-        "id": 102,
+        "id": 87,
         "symbol": "ひゃ",
         "sound": "hya"
     },
     {
-        "id": 103,
+        "id": 88,
         "symbol": "ひゅ",
         "sound": "hyu"
     },
     {
-        "id": 104,
+        "id": 89,
         "symbol": "ひょ",
         "sound": "hyo"
     },
     {
-        "id": 105,
+        "id": 90,
         "symbol": "みゃ",
         "sound": "mya"
     },
     {
-        "id": 106,
+        "id": 91,
         "symbol": "みゅ",
         "sound": "myu"
     },
     {
-        "id": 107,
+        "id": 92,
         "symbol": "みょ",
         "sound": "myo"
     },
     {
-        "id": 108,
+        "id": 93,
         "symbol": "りゃ",
         "sound": "rya"
     },
     {
-        "id": 109,
+        "id": 94,
         "symbol": "りゅ",
         "sound": "ryu"
     },
     {
-        "id": 110,
+        "id": 95,
         "symbol": "りょ",
         "sound": "ryo"
     },
     {
-        "id": 111,
+        "id": 96,
         "symbol": "ゐゃ",
         "sound": "wya"
     },
     {
-        "id": 112,
+        "id": 97,
         "symbol": "ゐゅ",
         "sound": "wyu"
     },
     {
-        "id": 113,
+        "id": 98,
         "symbol": "ゐょ",
         "sound": "wyo"
     },
     {
-        "id": 114,
+        "id": 99,
         "symbol": "ぎゃ",
         "sound": "gya"
     },
     {
-        "id": 115,
+        "id": 100,
         "symbol": "ぎゅ",
         "sound": "gyu"
     },
     {
-        "id": 116,
+        "id": 101,
         "symbol": "ぎょ",
         "sound": "gyo"
     },
     {
-        "id": 117,
+        "id": 102,
         "symbol": "じゃ",
         "sound": "ja"
     },
     {
-        "id": 118,
+        "id": 103,
         "symbol": "じゅ",
         "sound": "ju"
     },
     {
-        "id": 119,
+        "id": 104,
         "symbol": "じょ",
         "sound": "jo"
     },
     {
-        "id": 120,
+        "id": 105,
         "symbol": "ぢゃ",
         "sound": "dya"
     },
     {
-        "id": 121,
+        "id": 106,
         "symbol": "ぢゅ",
         "sound": "dyu"
     },
     {
-        "id": 122,
+        "id": 107,
         "symbol": "ぢょ",
         "sound": "dyo"
     },
     {
-        "id": 123,
+        "id": 108,
+        "symbol": "びゃ",
+        "sound": "bya"
+    },
+    {
+        "id": 109,
         "symbol": "びゅ",
         "sound": "byu"
     },
     {
-        "id": 124,
+        "id": 110,
         "symbol": "びょ",
         "sound": "byo"
     },
     {
-        "id": 125,
-        "symbol": "っば",
-        "sound": "bba"
-    },
-    {
-        "id": 126,
-        "symbol": "っび",
-        "sound": "bbi"
-    },
-    {
-        "id": 127,
-        "symbol": "っぶ",
-        "sound": "bbu"
-    },
-    {
-        "id": 128,
-        "symbol": "っべ",
-        "sound": "bbe"
-    },
-    {
-        "id": 129,
-        "symbol": "っぼ",
-        "sound": "bbo"
-    },
-    {
-        "id": 130,
+        "id": 111,
         "symbol": "ぴゃ",
         "sound": "pya"
     },
     {
-        "id": 131,
+        "id": 112,
         "symbol": "ぴゅ",
         "sound": "pyu"
     },
     {
-        "id": 132,
+        "id": 113,
         "symbol": "ぴょ",
         "sound": "pyo"
     },
     {
+        "id": 114,
+        "symbol": "っか",
+        "sound": "kka"
+    },
+    {
+        "id": 115,
+        "symbol": "っき",
+        "sound": "kki"
+    },
+    {
+        "id": 116,
+        "symbol": "っく",
+        "sound": "kku"
+    },
+    {
+        "id": 117,
+        "symbol": "っけ",
+        "sound": "kke"
+    },
+    {
+        "id": 118,
+        "symbol": "っこ",
+        "sound": "kko"
+    },
+    {
+        "id": 119,
+        "symbol": "っさ",
+        "sound": "ssa"
+    },
+    {
+        "id": 120,
+        "symbol": "っし",
+        "sound": "sshi"
+    },
+    {
+        "id": 121,
+        "symbol": "っす",
+        "sound": "ssu"
+    },
+    {
+        "id": 122,
+        "symbol": "っせ",
+        "sound": "sse"
+    },
+    {
+        "id": 123,
+        "symbol": "っそ",
+        "sound": "sso"
+    },
+    {
+        "id": 124,
+        "symbol": "った",
+        "sound": "tta"
+    },
+    {
+        "id": 125,
+        "symbol": "っち",
+        "sound": "tchi (cchi)"
+    },
+    {
+        "id": 126,
+        "symbol": "っつ",
+        "sound": "ttsu"
+    },
+    {
+        "id": 127,
+        "symbol": "って",
+        "sound": "tte"
+    },
+    {
+        "id": 128,
+        "symbol": "っと",
+        "sound": "tto"
+    },
+    {
+        "id": 129,
+        "symbol": "っば",
+        "sound": "bba"
+    },
+    {
+        "id": 130,
+        "symbol": "っび",
+        "sound": "bbi"
+    },
+    {
+        "id": 131,
+        "symbol": "っぶ",
+        "sound": "bbu"
+    },
+    {
+        "id": 132,
+        "symbol": "っべ",
+        "sound": "bbe"
+    },
+    {
         "id": 133,
+        "symbol": "っぼ",
+        "sound": "bbo"
+    },
+    {
+        "id": 134,
         "symbol": "っぱ",
         "sound": "ppa"
     },
     {
-        "id": 134,
+        "id": 135,
         "symbol": "っぴ",
         "sound": "ppi"
     },
     {
-        "id": 135,
+        "id": 136,
         "symbol": "っぷ",
         "sound": "ppu"
     },
     {
-        "id": 136,
+        "id": 137,
         "symbol": "っぺ",
         "sound": "ppe"
     },
     {
-        "id": 137,
+        "id": 138,
         "symbol": "っぽ",
         "sound": "ppo"
     }

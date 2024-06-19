@@ -42,12 +42,12 @@ body {
     height: auto;
 }
 
-#label-container {
+.label-container {
     font-family: sans-serif;
     font-size: medium;
 }
 
-#column-container {
+.column-container {
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -56,14 +56,14 @@ body {
     margin: 0px 10px;
 }
 
-#row-container > * {
+.row-container > * {
     margin-left: 10px;
 }
 
-#column-container > * {
+.column-container > * {
     margin-bottom: 10px;
 }
-#row-container {
+.row-container {
     display: flex; /* Enable flexbox */
     flex-direction: row; /* Align items horizontally */
     align-items: center; /* Optional: Vertically center items (optional) */
@@ -71,7 +71,7 @@ body {
 
 }
   
-#row-container>.item {
+.row-container>.item {
     /* Add styling for your content divs here (optional) */
     padding: 10px; /* Example padding */
   }
@@ -97,18 +97,18 @@ nav>ul {
     justify-content: space-evenly;
 }
 
-#grid-container {
+.grid-container {
     display: grid; /* Enable grid layout */
     grid-template-columns: repeat(auto-fit, minmax(30px, 1fr)); /* Example: Responsive columns */
     gap: 10px; /* Add spacing between grid items (optional) */
     margin: 10px;
 }
   
-#grid-container > * {
+.grid-container > * {
     justify-self: center;
     /* Add styling for individual grid items here (optional) */
   }
 
-.break-grid-column {
+#break-grid-column {
     grid-column-end: 1;
 }

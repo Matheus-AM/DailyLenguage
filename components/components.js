@@ -1,10 +1,21 @@
-
+class Indexer {
+    constructor() {
+        
+        this.count = 0;
+    }
+    next() {
+        return this.count++;
+    }
+}
+const indexer = new Indexer();
 class State {
-    constructor(handler) {
+    constructor(handler, element) {
+        
         this.handler = handler;
+        this.key = '' + element + indexer.next();
     }
     refresh(value) {
-        localStorage.setItem("prevsymbol", value);
+        localStorage.setItem("prev"+this.key, value);
         this.handler(value);
     }
     get() {
@@ -26,6 +37,8 @@ class Depth {
 }
 
 const rootHTML = document.getElementById("root");
+
+    
 let depth = new Depth(rootHTML);
 function createComponentToHTML(htmlKey, param, content){
     const self = document.createElement(htmlKey);
@@ -39,10 +52,10 @@ function createComponentToHTML(htmlKey, param, content){
 }
 
 const TAGS = {
-    LABEL: {id: "label-container"},
-    ROW: {id: "row-container"},
-    COLUMN: {id: "column-container"},
-    GRID: {id: "grid-container"},
+    LABEL: {class: "label-container"},
+    ROW: {class: "row-container"},
+    COLUMN: {class: "column-container"},
+    GRID: {class: "grid-container"},
 }
 
 
@@ -75,10 +88,11 @@ function cText(content,htmlParam){
     // htmlParam?.class = htmlParam?.class ?
     // htmlParam.class + " " + TAGS.LABEL.class :
     // TAGS.LABEL.class;
+    
     const param = {...htmlParam, ...TAGS.LABEL};  
     const innerContent = content || "";
     const a = createComponentToHTML("p", param, innerContent);
-    const state = new State((x)=>{a.innerHTML = x})
+    const state = new State((x)=>{a.innerHTML = x}, a.localName);
     return state;
 }
 
