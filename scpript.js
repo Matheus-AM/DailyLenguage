@@ -1,4 +1,9 @@
 function cRoot(){
+    japoneseScreen();
+}
+
+function japoneseScreen() {
+    resetScreen();
     const handle = (e)=>{
         text1.refresh(`${e.sound}`)
         symbol1.refresh(e.symbol);
@@ -42,5 +47,22 @@ function cRoot(){
         });
     end();
     cRow({style: "padding-top: 200px"});
-    end();
+    end();    
 }
+
+function arabicScreen() {
+    resetScreen();
+
+    cRow();
+        cText("hey arab")
+    end()
+}
+
+function englishScreen() {
+    resetScreen();
+
+    cRow();
+        cText("hey mate")
+    end()
+}
+
